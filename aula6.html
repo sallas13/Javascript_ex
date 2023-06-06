@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manipulação de dados...</title>
+  <style>
+    body {
+      background-color: rgb(105, 105, 173);
+      color: white;
+      font: normal 20pt Arial;
+    }
+    h1 {
+      color: rgb(255, 212, 22);
+    }
+  </style>
+</head>
+<body>
+  <h1>Olá, mundo!</h1>
+  <p>já me livrei da maldição!!</p>
+  <script>
+    // Window.prompt vai retornar o valor em String
+    // Number.parseInt vai transformar a String em número inteiro
+    /* Se eu utilizar o Number() ele ira reconher se o número é inteiro 
+     ou float */
+     // String() vai transformar minha variavel em string
+     // n.toString() irá retornar minha variavel em  string
+    var n1 = Number(window.prompt("Digite um numero: "))
+    var n2 = Number(window.prompt("Digite outro numero: "))
+    var soma = n1 + n2
+    window.alert('A soma dos valores é: ' + soma) /* O + dessa parte
+    está servindo para concatenação! */
+    // (Number + Number) O + serve para adição
+    // (String + String) O = serve para concatenação
+  </script>
+</body>
+</html>
